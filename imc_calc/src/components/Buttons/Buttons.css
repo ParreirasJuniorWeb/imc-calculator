@@ -1,0 +1,29 @@
+@import url("../../index.css");
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #F44236;
+    color: var(--background-color);
+    border-radius: 3px;
+    outline: none;
+    opacity: .9;
+    transition: opacity .5s ease-in-out, transform .5s ease-in-out;
+    flex: 1;
+    box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.1);
+    margin: 1rem 1.2rem;
+    transition: letter-spacing .6s ease-in, font-weight .8s ease-in;
+}
+
+button:hover {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.03);
+    letter-spacing: 1.7px;
+    font-weight: bold;
+}
+
+#clear-btn {
+    background-color: #444;
+}

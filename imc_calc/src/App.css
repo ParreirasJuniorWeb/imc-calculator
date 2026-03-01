@@ -1,0 +1,27 @@
+@import url('./index.css');
+
+#app-container {
+    background-color: var(--color-text);
+    padding: 2rem;
+    color: var(--background-color);
+    border-radius: 5px;
+    box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.1);
+}
+
+/* Classes dinâmicas para aplicar 
+as medidas corretas aos componentes específicos */
+
+.table-container {
+    min-width: 60rem; 
+    height: 100vh;
+    overflow: scroll;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.form-container {
+    width: 34rem;
+    height: 30rem; 
+}
